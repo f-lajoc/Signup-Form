@@ -19,3 +19,5 @@ Solution
 - then go to package.json file, after the ``"name": "app-name-u-used",``, add the website url to homepage ``"homepage": "https://urGithubName.github.io/repoName/",`` e.g ``
 - Then install github pages package in terminal using ``npm install gh-pages``
 - then go to package.json file, create 2 scripts essential for the deployment after the ``"preview": "vite preview",``,``"predeploy": "npm run build",`` and ``"deploy": "gh-pages -d dist"``
+- Then push to github
+- Come back to terminal to run ``npm run deploy``
