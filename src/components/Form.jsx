@@ -24,14 +24,18 @@ export default function Form() {
 
 					{/* name of user */}
 					<h2>Full Name</h2>
+					<label htmlFor="name"></label>
 					<input
+						id="name"
 						type="text"
 						placeholder="Funmi Lajoc"
 						onChange={(e) => setName(e.target.value)}
 						value={name}
 					/>
+
 					{/* user email */}
 					<h2>Email Address</h2>
+					<label htmlFor="email"></label>
 					<input
 						onChange={(e) => setEmail(e.target.value)}
 						value={email}
@@ -41,6 +45,7 @@ export default function Form() {
 					/>
 					{/* user password */}
 					<h2>Password</h2>
+					<label htmlFor="password"></label>
 					<input
 						onChange={(e) => setPassword(e.target.value)}
 						value={password}
@@ -50,6 +55,7 @@ export default function Form() {
 						placeholder="Password"
 					/>
 					<h2>Confirm Password</h2>
+					<label htmlFor="password"></label>
 					<input
 						onChange={(e) => setPassword(e.target.value)}
 						value={password}
