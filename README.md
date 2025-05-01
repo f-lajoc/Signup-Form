@@ -1,4 +1,4 @@
--To add fontawesome icons in react
+- To add fontawesome icons in react
 go to the site, login, navigate to docs, click on react
 follow the 3 steps by pasting each codes to terminal
 ```
