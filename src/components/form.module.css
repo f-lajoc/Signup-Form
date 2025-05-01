@@ -1,0 +1,100 @@
+main {
+	background-color: white;
+	color: #787676;
+	margin: 2em;
+	box-shadow: 0 4px 8px 0 #66966a, 0 6px 20px 0 black;
+	padding: 0 2em;
+}
+.header {
+	color: #000;
+	margin-bottom: 0;
+}
+.header + p {
+	margin-top: 0;
+}
+h2 {
+	font-size: 0.7em;
+	font-weight: normal;
+}
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.signupBtn {
+	background-color: #66966a;
+	margin-top: 2em;
+	color: white;
+	padding: 1em;
+	font-weight: bolder;
+	border: none;
+}
+a {
+	color: #66966a;
+	text-decoration: none;
+}
+input {
+	border: none;
+	border-bottom: 1px solid #787676;
+	margin-top: 5px;
+}
+::placeholder {
+	opacity: 0.5;
+}
+.heroPage {
+	display: none;
+}
+footer {
+	text-align: center;
+	margin: 1em;
+	opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+	main {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 0 0 2em;
+	}
+	form {
+		width: 40%;
+		height: 100vh;
+		padding: 0 1em;
+		justify-content: space-between;
+	}
+	/* displays only on larger screen */
+	.heroPage {
+		background-color: #66966a;
+		display: flex;
+		flex-direction: column;
+		color: white;
+		width: 55%;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.signinBtn {
+		color: white;
+		background-color: #66966a;
+		border: 1px solid white;
+		padding: 5px;
+		border-radius: 50px;
+	}
+	/* styling the two fontawesome icons to look like one icon*/
+	.icons {
+		display: flex;
+		font-size: 50px;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+	/* making the ball icon smaller */
+	.fawesomeSoccer {
+		font-size: 20px;
+	}
+	.soccerBall, .soccerBall + p{
+		margin: 0 auto 1em;
+	}
+}
